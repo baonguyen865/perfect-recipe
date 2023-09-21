@@ -1,0 +1,4 @@
+npm i --save react-bootstrap bootstrap
+npm i axios
+npm i react-icons
+npm i react-router-dom

@@ -1,0 +1,19 @@
+._navbar {
+    background-color: #dddddd;
+}
+
+._navbar .logo {
+    color: #bfbfbf;
+    font-weight: 900 !important;
+    font-size: 45px;
+}
+
+.logo_suffex {
+    color: #054b54;
+}
+
+@media only screen and (max-width: 760px) {
+    ._navbar .logo {
+        font-size: 45px;
+    }
+}

@@ -1,38 +1,72 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    outline: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+._nav-link {
+    background-color: #054b54!important;
+    border: 0px !important;
+    color: white!important;
+    font-weight: 700!important;
+    font-size: 20px!important;
+    /* min-width: 200px!important; */
+    padding: 10px 0!important;
+    /* margin: 0 1px!important; */
+    width: 100%!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+._nav-link.active {
+    background-color: #f8f9fa!important;
+    color: #054b54!important;
 }
 
-.App-link {
-  color: #61dafb;
+.text_primary {
+    color: #054b54!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text_secondary {
+    color: #054b54!important;
+}
+
+.bg_primary {
+    background-color: #054b54!important;
+}
+.bg_gray {
+    background-color: rgba(128, 128, 128, 0.523);
+}
+
+.bg_secondary {
+    background-color: #054b54!important;
+}
+
+th {
+    color: #e04c26!important;
+}
+
+.edit_link {
+    width: 30px;
+    height: 30px;
+}
+
+.react-tel-input .form-control {
+    width: 100%!important;
+}
+
+@media only screen and (max-width: 768px) {
+    ._nav-link {
+        font-size: 12px!important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    ._nav-link {
+        font-weight: 500!important;
+        font-size: 8px!important;
+        padding: 5px 0!important;
+    }
 }

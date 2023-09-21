@@ -1,0 +1,18 @@
+.hero {
+    background-image: url('https://cdn.sanity.io/images/7uab8anh/production/b44d64fb5d864a9c7dc57840dcabfec95c273208-2550x1700.png?rect=0,522,2550,657&w=1280&h=330&auto=format');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 400px;
+}
+
+.hero p {
+    max-width: 800px;
+    width: 100%;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 760px) {
+    .hero p {
+        font-size: inherit;
+    }
+}
