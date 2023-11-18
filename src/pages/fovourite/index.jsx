@@ -6,7 +6,7 @@ const Favourite = () => {
 
   useEffect(() => {
     let storedData = JSON.parse(localStorage.getItem("myFav"));
-    if(storedData !== null){
+    if (storedData !== null) {
       setRecipes(storedData)
     }
   }, []);
@@ -29,7 +29,7 @@ const Favourite = () => {
                       className="col-12 col-md-3 col-sm-12 col-xs-12 p-0 m-0 mb-2 mb-sm-0 p-2"
                       key={i}
                     >
-                      <Card key={i} data={v} fav={true}/>
+                      <Card key={i} data={v} fav={true} />
                     </div>
                   );
                 })}

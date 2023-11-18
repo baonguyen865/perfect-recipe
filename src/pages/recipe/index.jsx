@@ -25,8 +25,8 @@ const Home = () => {
           >
             Go Back
           </Link>
-          <div style={{maxWidth: '500px'}}>
-            <img src={recipe?.strMealThumb} alt="" width='100%'/>
+          <div style={{ maxWidth: '500px' }}>
+            <img src={recipe?.strMealThumb} alt="" width='100%' />
           </div>
         </div>
         <div>

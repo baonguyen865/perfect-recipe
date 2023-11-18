@@ -9,43 +9,44 @@ input[type="password"] {
 }
 
 ._nav-link {
-    background-color: #054b54!important;
+    background-color: #054b54 !important;
     border: 0px !important;
-    color: white!important;
-    font-weight: 700!important;
-    font-size: 20px!important;
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
     /* min-width: 200px!important; */
-    padding: 10px 0!important;
+    padding: 10px 0 !important;
     /* margin: 0 1px!important; */
-    width: 100%!important;
+    width: 100% !important;
 }
 
 ._nav-link.active {
-    background-color: #f8f9fa!important;
-    color: #054b54!important;
+    background-color: #f8f9fa !important;
+    color: #054b54 !important;
 }
 
 .text_primary {
-    color: #054b54!important;
+    color: #054b54 !important;
 }
 
 .text_secondary {
-    color: #054b54!important;
+    color: #054b54 !important;
 }
 
 .bg_primary {
-    background-color: #054b54!important;
+    background-color: #054b54 !important;
 }
+
 .bg_gray {
     background-color: rgba(128, 128, 128, 0.523);
 }
 
 .bg_secondary {
-    background-color: #054b54!important;
+    background-color: #054b54 !important;
 }
 
 th {
-    color: #e04c26!important;
+    color: #e04c26 !important;
 }
 
 .edit_link {
@@ -54,19 +55,19 @@ th {
 }
 
 .react-tel-input .form-control {
-    width: 100%!important;
+    width: 100% !important;
 }
 
 @media only screen and (max-width: 768px) {
     ._nav-link {
-        font-size: 12px!important;
+        font-size: 12px !important;
     }
 }
 
 @media only screen and (max-width: 500px) {
     ._nav-link {
-        font-weight: 500!important;
-        font-size: 8px!important;
-        padding: 5px 0!important;
+        font-weight: 500 !important;
+        font-size: 8px !important;
+        padding: 5px 0 !important;
     }
 }

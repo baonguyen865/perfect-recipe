@@ -17,18 +17,18 @@ const Navbar = () => {
               Perfect<span className="logo_suffex">Recipe</span>
             </p>
           </Link>
-   
+
         </div>
         <div className="d-flex align-items-center gap-4">
-          
+
           <Link
             to={"/favourite"}
             className="text-decoration-none"
           >
-           <button className="bg-transparent border-0 outline-0 d-flex justify-content-between  align-items-center gap-2">
-            <IoHeartCircle className="m-0 p-0 text_primary h4" />{" "}
-            <p className="p-0 m-0 text_primary h6">Favoritos</p>
-          </button>
+            <button className="bg-transparent border-0 outline-0 d-flex justify-content-between  align-items-center gap-2">
+              <IoHeartCircle className="m-0 p-0 text_primary h4" />{" "}
+              <p className="p-0 m-0 text_primary h6">Favoritos</p>
+            </button>
           </Link>
         </div>
       </div>
